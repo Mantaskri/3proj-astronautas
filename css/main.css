@@ -46,8 +46,11 @@ main h2 {
     font-size: 55px;
     letter-spacing: -2px;
 }
-
+main hr {
+    float: left; width: 30%; height: 3px; background-color: #648; margin-bottom: 0%;
+}
 main p {
+    margin-top: 0%;
     width: 100%;
     color: #777;
 }
