@@ -1,6 +1,4 @@
-header,
-main,
-footer {
+.container {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px); 
@@ -8,17 +6,17 @@ footer {
     margin-bottom: 30px;
 }
 
-header > img {
+.logo {
     float: left;
 }
 
-nav {
+.menu {
     float: right;
     margin-top: 10px;
     margin-right: 10%;
 }
 
-nav a {
+.link {
     margin-left: 10px;
     background-color: white;
     color: black;
@@ -28,16 +26,16 @@ nav a {
     text-decoration: none;
 }
 
-nav > a:hover {
+.link:hover {
 color: #648;
 text-decoration: underline;
 }
 
-nav > a:first-child {
+.link:first-child {
     margin-left: 0;
 }
 
-main > div {  
+.left-column {  
     margin-top: 10%;  
     width: 40%;
     float: left;
@@ -70,11 +68,12 @@ main p {
     color: #777;
 }
 
-main div > div {
+.left-column > div {
     margin-top: 20px;
 
 }
-main a {
+
+.btn {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -88,17 +87,17 @@ main a {
     display: inline-block;
  }
 
- main a:hover {
+ .btn:hover {
      box-shadow: 0px 10px 15px rgb(88, 61, 119);
  }
 
- main a:last-child {
+ .btn:last-child {
      color: #648;
      background-color: white;
      font-size: 20px;
  }
 
-main > img { 
+.gif { 
     width: 60%;
     float: right;
 }
@@ -106,34 +105,34 @@ main > img {
 footer {
     font-weight: bold;
 }
-footer div {
+.social-icons {
     float: left;
 }
 
-footer div > a {
+.social-icons > a {
     text-decoration: none;
     color: #777;
 
     transition: all 1s;
 }
 
-footer div > a + a {
+.social-icons > a + a {
     margin-left: 10px;
 }
 
-footer div a:nth-of-type(1):hover {
+.social-icons a:nth-of-type(1):hover {
     color: blue;
 }
 
-footer div a:nth-of-type(2):hover {
+.social-icons a:nth-of-type(2):hover {
     color: aqua;
 }
 
-footer div a:nth-of-type(3):hover {
+.social-icons a:nth-of-type(3):hover {
 color: orange;
 }
 
-footer div a:nth-of-type(4):hover {
+.social-icons a:nth-of-type(4):hover {
     color: deepskyblue;
 }
 
